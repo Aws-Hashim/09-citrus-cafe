@@ -1,0 +1,436 @@
+/*mobile first*/
+@media  screen and (max-width: 426px) {
+html{
+    font-size: 62.5%;
+   
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: #80ba57;
+}
+
+#container{
+  background-color: #83c05b;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+#main-nav{
+    background-color:#9dcd7c ;
+    padding:0;
+
+}
+#main-nav ul{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+#main-nav ul > *{
+    flex-grow: 1;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem;
+    border: solid #77ad51 1px;
+    border-radius: 7px;
+    color: #f1f1f1;
+    box-shadow: 1px 1px 1px 1px #77ad53;
+}
+
+#maincontain{
+    background-color: #80ba57 ;
+
+}
+
+#vision p{
+    font-size: 2.2rem;
+    padding: 1rem;
+
+}
+#maincontain img{
+    display: block;
+}
+
+#boxes{
+    background-color: white;
+   }
+
+#boxes p{
+    background-color: #cbcbcb;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+}
+#boxes img{
+    max-width: 100%;
+}
+#specials{
+   
+    display: flex;
+    flex-direction: column;
+
+}
+#boxes span{
+    float: right;
+}
+#photo img{
+    display: none;
+}
+.news{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#news .kapea{
+    display: flex;
+    flex-basis: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+#info{
+ background-color:#83c05b;
+}
+#title{
+    color: white;
+}
+.somenav ul li{
+    float:right;
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+#place{
+    color: white;
+}
+#phone{
+    color: black;
+}
+#title .facebook{
+    fill: white;
+    width: 3.2rem;
+   
+}
+
+.somenav .icon{
+    fill: white;
+    width: 1.2rem;
+    display: inline-block;
+ }
+ .some-nav ul .facebook{
+    background-color: #4267b2;
+
+}
+
+}
+
+@media  screen and (min-width: 426px) {
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1rem;
+  background-color: #80ba57;
+}
+#container{
+  background-color: #83c05b;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-nav{
+    background-color:#9dcd7c ;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+}
+#main-nav ul{
+    display: flex;
+    flex-direction:row;
+    flex: 1;
+
+}
+#main-nav ul > *{
+    flex-grow: 1;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem;
+    border: solid #77ad51 1px;
+    border-radius: 7px;
+    color: #f1f1f1;
+    box-shadow: 1px 1px 1px 1px #77ad53;
+}
+
+#maincontain{
+    background-color: #80ba57 ;
+
+}
+
+#vision p{
+    padding: 1rem;
+   
+
+}
+#maincontain img{
+    display: block;
+}
+
+#boxes{
+    background-color: white;
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+
+}
+
+#boxes p{
+    background-color: #cbcbcb;
+    margin: 0.6rem;
+    padding: 0.6rem;
+    color: black;
+    margin-right: 0.1rem;
+   
+}
+#boxes img{
+    max-width: 100%;
+    margin-left: 0.4rem;
+
+}
+#specials{
+    display: flex;
+    flex-direction: column;   
+}
+#event{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+#boxes span{
+    float: right;
+}
+
+#news{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+#news .kapea{
+    display: flex;
+    flex-basis: 50px;
+    text-align: right;
+    padding-right: 10px;
+}
+#info{
+ background-color:#83c05b;
+}
+#title{
+    color: white;
+}
+.somenav ul li{
+    float:right;
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+#place{
+    color: white;
+}
+#phone{
+    color: black;
+}
+#title .facebook{
+    fill: white;
+    width: 3.2rem;
+}  
+#vision{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./Image/bacground-img.jpeg);
+    background-position: left top;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat;
+    border: solid white 10px;  
+}
+.visiontext{
+    flex-basis: 100%;
+    flex-grow: 2;  
+}
+#photo{
+    flex-basis: 50%;
+    float: right;
+}
+
+.somenav .icon{
+    fill: white;
+    width: 1.2rem;
+    display: inline-block;
+ }
+ .some-nav ul .facebook{
+    background-color: #4267b2;
+
+}
+}
+
+
+/*Desktop-säänöt*/
+@media  screen and (min-width: 769px) {
+        
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+    background-color: #80ba57;
+  }
+#container{
+    background-color: #83c05b;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+  
+#main-nav{
+      background-color:#9dcd7c ;
+      padding:0;
+      flex-direction: row;
+      flex-grow: 1; 
+  }
+
+#main-nav ul{
+    display:flex;
+    flex-direction:row;
+    flex: 1;
+   
+}
+#main-nav ul > *{
+    flex-grow: 1;
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1rem;
+    border: solid #77ad51 1px;
+    border-radius: 7px;
+    color: #f1f1f1;
+    box-shadow: 1px 1px 1px 1px #77ad53;
+}
+
+#maincontain{
+    background-color: #80ba57 ;
+
+}
+
+#vision p{
+    font-size: 2.2rem;
+    padding: 1rem;
+
+}
+#maincontain img{
+    display: block;
+}
+#photo{
+    width: 100%;     
+}
+
+#boxes{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   }
+#boxes p{
+    background-color: #cbcbcb;
+    margin: 1rem;
+    padding: 1rem;
+    color: black;
+    margin-right: 0.11rem;
+    margin-left: 0;
+}
+
+#boxes > * {
+    flex: 1;
+}
+
+#specials{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+#events{
+    display: flex;
+    flex-direction: column;
+}
+
+#boxes span{
+    float: right;
+}
+
+#news{
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-right: 0.5rem;
+}
+#news .kapea{
+    display: flex;
+    flex-basis: 50px;
+    text-align: right;
+    padding-right: 10px;
+    flex-direction: column;
+    float: left;
+    padding: 0.4rem;
+}
+#info{
+ background-color:#83c05b;
+}
+#title{
+    color: white;
+}
+.somenav ul li{
+    float:right;
+    margin-right: 5px;
+    font-size: 1.8rem;
+}
+#place{
+    color: white;
+}
+#phone{
+    color: black;
+}
+#title .facebook{
+    fill: white;
+    width: 3.2rem;
+}
+#vision{
+    display: flex;
+    flex-direction: row;
+    background-image: url(./Image/bacground-img.jpeg);
+    background-position: left top;
+    align-items: center;
+    justify-content: center;
+    background-repeat: repeat;
+    border: solid white 10px;
+    
+}
+
+.visiontext{
+    flex-basis: 100%;
+    
+}
+#photo{
+    flex-basis: 50%;
+   float: right;
+}
+
+
+.somenav .icon{
+    fill: white;
+    width: 1.2rem;
+    display: inline-block;
+ }
+ .some-nav ul .facebook{
+    background-color: #4267b2;
+
+}
+}
